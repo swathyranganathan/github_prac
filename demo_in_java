@@ -1,24 +1,10 @@
-public class conditions {
-    public static void main(String[] args) {
-        /*
-
-        syntax of if statements:
-        if(boolean expression T or F){
-        //body
-        } else{
-        // do this
-        }
-         */
-        int incremented;
-        int salary=25400;
-        if(salary>10000) {
-            incremented = salary + 2000;
-          //  System.out.println(incremented);
-        }
-        else{
-            incremented=salary+1000;
-           // System.out.println(incremented);
-        }
-        System.out.println(incremented);
-    }
-}
+1. To clone a project form github
+    -> go to the file manager and select where you want to clone the project
+    open cmt ,do execute this command : git clone (git hub url)
+2. command: git pull
+     ->to get changes from remote
+3. to push my changes to remote
+     firstly we need to add file or files which we want to move to remote
+     -> add comment: git add (file name) or to add all files :git add *
+     secondly we need to commit the changes by using the following comment: git commit -m "(your commit message)"
+     finally use git push
