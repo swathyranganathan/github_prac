@@ -1,1 +1,24 @@
-creates demo_in_java file 
+public class conditions {
+    public static void main(String[] args) {
+        /*
+
+        syntax of if statements:
+        if(boolean expression T or F){
+        //body
+        } else{
+        // do this
+        }
+         */
+        int incremented;
+        int salary=25400;
+        if(salary>10000) {
+            incremented = salary + 2000;
+          //  System.out.println(incremented);
+        }
+        else{
+            incremented=salary+1000;
+           // System.out.println(incremented);
+        }
+        System.out.println(incremented);
+    }
+}
